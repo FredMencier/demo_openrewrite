@@ -1,2 +1,2 @@
-# demo_openrewrite
-Demo OpenRewrite
+# Demo OpenRewrite
+- profile **security** permet de découvrir les CVE sur log4j

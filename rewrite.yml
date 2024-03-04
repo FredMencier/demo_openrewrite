@@ -5,3 +5,14 @@ recipeList:
       groupIdPattern: org.apache.logging.log4j
       artifactIdPattern: log4j-core
       version: 2.0-2.17.0
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: org.apache.logging.log4j
+      artifactId: log4j-core
+      newVersion: 2.17.X
+
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.myorganization.modernizejava
+recipeList:
+  - org.openrewrite.java.migrate.UpgradeToJava17
+  - org.openrewrite.java.RemoveUnusedImports

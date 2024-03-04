@@ -1,2 +1,2 @@
 # Demo OpenRewrite
-- profile **security** permet de découvrir les CVE sur log4j
+- profile **rewrite** d'excuter les recettes

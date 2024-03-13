@@ -1,2 +1,3 @@
 # Demo OpenRewrite
-- profile **rewrite** d'excuter les recettes
+- Projet de demo pour devoxx
+- profile **rewrite** pour excuter les recettes simples de demo de l'outil

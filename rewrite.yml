@@ -16,10 +16,3 @@ name: com.myorganization.modernizejava
 recipeList:
   - org.openrewrite.java.migrate.UpgradeToJava17
   - org.openrewrite.java.RemoveUnusedImports
-
----
-type: specs.openrewrite.org/v1beta/recipe
-name: com.myorganization.migration
-recipeList:
-  - org.openrewrite.java.migrate.UpgradeToJava17
-  - org.exemple.RefactorLocalInterfaces

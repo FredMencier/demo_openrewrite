@@ -16,3 +16,4 @@ name: com.myorganization.modernizejava
 recipeList:
   - org.openrewrite.java.migrate.UpgradeToJava17
   - org.openrewrite.java.RemoveUnusedImports
+  - org.openrewrite.java.testing.junit5.JUnit5BestPractices

@@ -24,7 +24,10 @@ public class MyBusinessLogic {
             System.out.println(
                     String.format("mon option contient la valeur %s", myOption.get()));
         }
+    }
 
+    public String businessProcess(String aString) {
+        return aString;
     }
 
 
